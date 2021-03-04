@@ -8,7 +8,7 @@ function isString(n) {
 }
 
 
-const start = document.getElementById('start'),
+let start = document.getElementById('start'),
 		cancel = document.getElementById('cancel'),
 		btnPlus = document.getElementsByTagName('button'),
 		incomePlus = btnPlus[0],
